@@ -5,7 +5,12 @@ int main(int argc, char *argv[])
 {
     if (argc > 1)
     {
-        std::cout << argv[1] << std::endl;
+        //for each argument
+        for (int i = 1; i < argc; i++)
+        {
+            // print the argument
+            std::cout << argv[i] << std::endl;
+        }
     }
     else
     {
